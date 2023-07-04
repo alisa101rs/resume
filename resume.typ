@@ -47,6 +47,7 @@
 
 WORK EXPIRENCE  
 
+
 08.2018 - CURRENT 
 SOFTWARE ENGINEER, BARANOV CENTRAL INSTITUTE OF AVIATION MOTOR  DEVELOPMENT, MOSCOW  
  Solo developer of 3d engine for visualization of CFD results in Virtual Reality (Rust +  Vulkan).  
