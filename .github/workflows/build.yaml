@@ -24,4 +24,5 @@ jobs:
         if: github.ref_type == 'tag'
         with:
           name: "${{ github.ref_name }}"
-          files: "resume.pdf"
+          files: |
+            resume.pdf
