@@ -1,0 +1,1 @@
+Based on https://github.com/bamboovir/typst-resume-template/blob/main/resume.typ
