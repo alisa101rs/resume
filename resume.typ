@@ -16,6 +16,42 @@
   date: "July, 2023"
 )
 
+An Enthused Software Engineer with strong competencies in Rust and Python. 
+
+
+#resume_section("Experience")
+
+
+#work_experience_item_header(
+  "Rakuten Group Inc., Membership Section",
+  "Tokyo, Japan",
+  "Software Engineer",
+  "Jan. 2022 - Current",
+)
+
+#resume_item[
+    -  a
+    - b 
+    - c 
+    - d
+    - f
+]
+
+#work_experience_item_header(
+  "Baranov Central Institute of Aviation Motor  Development",
+  "Moscow, Russia",
+  "Software Engineer",
+  "Aug. 2018 - Dec. 2021",
+)
+
+#resume_item[
+    - Solo developer of 3d engine for visualization of CFD results in Virtual Reality (Rust +  Vulkan).  
+    - Conducted integration of local CFD solver into Russian multiphysics engineering  simulation software (Fortran + C/C++).  
+    - Developed SPA for interactive real time visualization of 2d plots for (Vue + Python  Backend).  
+    - Updated old code bases of CFD Solver utilities to modern development standards.  Built code generators for Fortran in Rust.  
+    - A lot of data processing (CFD results with python scripts).  
+]
+
 
 #resume_section("Education")
 
@@ -43,16 +79,50 @@
     Dissertation: Visualization of CFD results in Virtual Reality with a volumetric rendering  technic using raytracing.
 ]
 
-#resume_section("Experience")
+#resume_section("Personal Projects")
 
-WORK EXPIRENCE  
+#personal_project_item_header(
+  "Cassandra Spy Proxy",
+  "",
+  "",
+  "",
+)
 
+#resume_item[
+  - #lorem(30)
+]
 
-08.2018 - CURRENT 
-SOFTWARE ENGINEER, BARANOV CENTRAL INSTITUTE OF AVIATION MOTOR  DEVELOPMENT, MOSCOW  
- Solo developer of 3d engine for visualization of CFD results in Virtual Reality (Rust +  Vulkan).  
- Conducted integration of local CFD solver into Russian multiphysics engineering  simulation software (Fortran + C/C++).  
- Developed SPA for interactive real time visualization of 2d plots for (Vue + Python  Backend).  
- Updated old code bases of CFD Solver utilities to modern development standards.  Built code generators for Fortran in Rust.  
- A lot of data processing (CFD results with python scripts).  
- Worked with remote Linux clusters.  
+#resume_section("Skills")
+
+#skill_item(
+  "General",
+  (
+    strong[Rust],
+    strong[Kotlin], 
+    strong[Python], 
+    "Nix",
+  )
+)
+
+#skill_item(
+  "Back-End",
+  (
+    strong[Axum],
+    strong[Hyper], 
+    strong[Vert.x], 
+    "Opentelemetry", 
+    "Cassandra", 
+    "Aaaa",
+    "A/A++",
+    "Aaaa", 
+    "Aaaaaaa", 
+  )
+)
+
+#skill_item(
+  "Languages",
+  (
+    strong[Russian],
+    strong[English], 
+  )
+)

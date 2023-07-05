@@ -111,7 +111,7 @@
 
   let contacts = {
     set box(height: 11pt)
-    
+    let location_icon = box(image("assets/icons/location.svg", height: 15pt))
     let linkedin_icon = box(image("assets/icons/linkedin.svg"))
     let github_icon = box(image("assets/icons/square-github.svg"))
     let email_icon = box(image("assets/icons/square-envelope-solid.svg"))
@@ -121,6 +121,9 @@
     align(center)[
       #block[
         #align(horizon)[
+          #location_icon
+          #box[Tokyo, Japan]
+          #separator
           #phone_icon
           #box[#text(author.phone)]
           #separator
@@ -267,7 +270,7 @@
   
   pad[
     #grid(
-      columns: (18fr, 80fr),
+      columns: (25fr, 80fr),
       gutter: 10pt,
       align(right)[
         #resume_category[#category]
