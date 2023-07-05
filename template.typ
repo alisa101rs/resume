@@ -133,8 +133,9 @@
           #github_icon
           #box[#link("https://github.com/" + author.github)[#author.github]]
           #separator
+          #linkedin_icon
           #box[
-            #link("https://www.linkedin.com/in/" + author.linkedin)[#linkedin_icon]
+            #link("https://www.linkedin.com/in/" + author.linkedin)[alisa-gorelova]
           ]
         ]
       ]
@@ -204,19 +205,20 @@
 }
 
 // sections specific components
-#let education_item(organization, degree, time_frame, description) = {
+#let education_item(organization, location, degree, time_frame) = {
   set block(above: 0.7em, below: 0.7em)
   set pad(top: 5pt)
   pad[
     #justify_align[
       #resume_organization[#organization]
-    ][]
+    ][
+      #resume_location[#location]
+    ]
     #justify_align[
       #resume_degree[#degree]
     ][
       #resume_time[#time_frame]
     ]
-    #resume_position[#description]
   ]
 }
 
