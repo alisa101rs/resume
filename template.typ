@@ -44,7 +44,7 @@
   set text(
     //font: ("Source Sans Pro"),
     lang: "en",
-    size: 11pt,
+    size: 10pt,
     fill: color_darknight,
     fallback: false
   )
@@ -84,7 +84,7 @@
       #pad(bottom: 5pt)[
         #block[
           #set text(
-            size: 32pt, 
+            size: 24pt, 
             style: "normal", 
             //font: ("Roboto")
           )
@@ -133,8 +133,9 @@
           #github_icon
           #box[#link("https://github.com/" + author.github)[#author.github]]
           #separator
+          #linkedin_icon
           #box[
-            #link("https://www.linkedin.com/in/" + author.linkedin)[#linkedin_icon]
+            #link("https://www.linkedin.com/in/" + author.linkedin)[alisa-gorelova]
           ]
         ]
       ]
@@ -199,24 +200,25 @@
 }
 
 #let resume_gpa(numerator, denominator) = {
-  set text(size: 12pt, style: "italic", weight: "light")
+  set text(size: 10pt, style: "italic", weight: "light")
   text[Cumulative GPA: #box[#strong[#numerator] / #denominator]]
 }
 
 // sections specific components
-#let education_item(organization, degree, time_frame, description) = {
+#let education_item(organization, location, degree, time_frame) = {
   set block(above: 0.7em, below: 0.7em)
   set pad(top: 5pt)
   pad[
     #justify_align[
       #resume_organization[#organization]
-    ][]
+    ][
+      #resume_location[#location]
+    ]
     #justify_align[
       #resume_degree[#degree]
     ][
       #resume_time[#time_frame]
     ]
-    #resume_position[#description]
   ]
 }
 
@@ -276,7 +278,7 @@
         #resume_category[#category]
       ],
       align(left)[
-        #set text(size: 11pt, style: "normal", weight: "light")
+        #set text(size: 10pt, style: "normal", weight: "light")
         #items.join(", ")
       ],
     )

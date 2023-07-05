@@ -15,14 +15,16 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: PDFs
-          path: resume.pdf
+          path: ./resume.pdf
       - name: Get current date
         id: date
         run: echo "DATE=$(date +%Y-%m-%d-%H:%M)" >> $GITHUB_ENV
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         if: github.ref_type == 'tag'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           name: "${{ github.ref_name }}"
           files: |
-            resume.pdf
+            ./resume.pdf
