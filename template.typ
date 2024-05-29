@@ -44,7 +44,7 @@
   set text(
     //font: ("Source Sans Pro"),
     lang: "en",
-    size: 11pt,
+    size: 10pt,
     fill: color_darknight,
     fallback: false
   )
@@ -84,7 +84,7 @@
       #pad(bottom: 5pt)[
         #block[
           #set text(
-            size: 32pt, 
+            size: 24pt, 
             style: "normal", 
             //font: ("Roboto")
           )
@@ -200,7 +200,7 @@
 }
 
 #let resume_gpa(numerator, denominator) = {
-  set text(size: 12pt, style: "italic", weight: "light")
+  set text(size: 10pt, style: "italic", weight: "light")
   text[Cumulative GPA: #box[#strong[#numerator] / #denominator]]
 }
 
@@ -278,7 +278,7 @@
         #resume_category[#category]
       ],
       align(left)[
-        #set text(size: 11pt, style: "normal", weight: "light")
+        #set text(size: 10pt, style: "normal", weight: "light")
         #items.join(", ")
       ],
     )

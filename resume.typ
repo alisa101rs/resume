@@ -13,7 +13,7 @@
         "Software Architect",
       )
   ),
-  date: "July, 2023"
+  date: "May, 2024"
 )
 
 Enthusiastic software engineer with strong competencies in Rust and Kotlin. 
@@ -31,12 +31,12 @@ Enthusiastic software engineer with strong competencies in Rust and Kotlin.
 
 #resume_item[
     - Migrated legacy spring-based global authentication and authorization service to a new kotlin + vert.x stack with increased 100x throughput (architect + tech leader)
-    - Migration of legacy spring REST service to a new  kotlin + vert.x stack (architect + tech leader)
-    - Designed migration strategy with a zero downtime, with POCs services (rust + axum)
-    - Provided training for people to shift from exceptions to functional error handling approach (sum types + effects)
-    - Regular reviewing of external and internal PRs
-    - Developed small migration components (routers, proxies) in rust 
-    - Rewritten internal authentication framework from kotlin to rust
+    - Migrated legacy spring REST service to a new kotlin + vert.x stack (architect + tech leader)
+    - Designed migration strategy with a zero downtime, with POCs services (architect)
+    - Conducted multiple trainings aimed at developing deep understanding of kotlin coroutines
+    - Regular reviewing of external and internal PRs providing comments aimed at increasing product quality and raising engineering culture (architect)
+    - Developed internal authorization framework in rust
+    - Designed and reviewed several company-wide features aimed at enhancing user account security (architect + pdm)
 ]
 
 #work_experience_item_header(
@@ -48,10 +48,7 @@ Enthusiastic software engineer with strong competencies in Rust and Kotlin.
 
 #resume_item[
     - Developed 3D engine for visualization of CFD results in Virtual Reality (Rust + Vulkan).  
-    - Conducted integration of local CFD solver into multiphysics engineering  simulation software (Fortran + C).  
-    - Developed SPA for interactive real time visualization of CFD calculation processes (Vue + Python  Backend).  
-    - Updated old code bases of CFD Solver utilities to modern development standards. Built code generators for Fortran in Rust.  
-    - Enhanced flows of CFD data analysis by introducing automatisation of the results processing with python.
+    - Conducted integration of local CFD solver into multiphysics engineering  simulation software (Fortran + C). Updated old code bases of CFD Solver utilities to modern development standards.
 ]
 
 
@@ -111,6 +108,17 @@ Enthusiastic software engineer with strong competencies in Rust and Kotlin.
   Tool, that allows to inspect all external interactions, that are happening during processing individual http request, of a targeted legacy service. Most prominent feature is recording of all querries that are being made from the service to cassandra db, translating them and replaying against separate kassandra to record diffs that have been caused by that http request.
 ]
 
+#personal_project_item_header(
+  "dothttp",
+  "",
+  "text-based http client",
+  "",
+)
+
+#resume_item[
+  Convinient CLI tool to execute http requests providing full compatibility with intelijj http client.
+]
+
 #resume_section("Skills")
 
 #skill_item(
@@ -135,6 +143,7 @@ Enthusiastic software engineer with strong competencies in Rust and Kotlin.
     strong[axum],
     strong[hyper], 
     strong[vert.x], 
+    strong[kotlin coroutines],
     "opentelemetry", 
     "cassandra", 
     "vector",
@@ -146,6 +155,6 @@ Enthusiastic software engineer with strong competencies in Rust and Kotlin.
   "Languages",
   (
     strong[Russian (Native)],
-    strong[English (C1, 930 TOEIC)], 
+    strong[English (C2)], 
   )
 )
