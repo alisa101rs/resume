@@ -112,8 +112,8 @@
   let contacts = {
     set box(height: 11pt)
     let location_icon = box(image("assets/icons/location.svg", height: 15pt))
-    let linkedin_icon = box(image("assets/icons/linkedin.svg"))
-    let github_icon = box(image("assets/icons/square-github.svg"))
+    // let linkedin_icon = box(image("assets/icons/linkedin.svg"))
+    // let github_icon = box(image("assets/icons/square-github.svg"))
     let email_icon = box(image("assets/icons/square-envelope-solid.svg"))
     let phone_icon = box(image("assets/icons/square-phone-solid.svg"))
     let separator = box(width: 5pt)
@@ -130,13 +130,13 @@
           #email_icon
           #box[#link("mailto:" + author.email)[#author.email]]
           #separator
-          #github_icon
-          #box[#link("https://github.com/" + author.github)[#author.github]]
+          // #github_icon
+          // #box[#link("https://github.com/" + author.github)[#author.github]]
           #separator
-          #linkedin_icon
-          #box[
-            #link("https://www.linkedin.com/in/" + author.linkedin)[alisa-gorelova]
-          ]
+          // #linkedin_icon
+          // #box[
+          //   #link("https://www.linkedin.com/in/" + author.linkedin)[alisa-gorelova]
+          // ]
         ]
       ]
     ] 

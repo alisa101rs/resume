@@ -2,156 +2,141 @@
 
 #show: resume.with(
   author: (
-      firstname: "Alisa", 
-      lastname: "Gorelova",
-      email: "nanopro1g@gmail.com", 
-      phone: "(+81) 7083148567",
-      github: "alisa101rs",
-      linkedin: "alisa-gorelova-88940a230",
+      firstname: "Norah", 
+      lastname: "Jones",
+      email: "norahizettajones@gmail.com", 
+      phone: "(+81) 7090894474",
+      // github: "alisa101rs",
+      // linkedin: "alisa-gorelova-88940a230",
       positions: (
-        "Software Engineer",
-        "Software Architect",
+        "English Teacher",
+        "Head Teacher"
+        // "Software Architect",
       )
   ),
-  date: "Dec, 2024"
+  date: "Jun, 2025"
 )
 
-Enthusiastic software engineer and architect with strong competencies in Rust and Kotlin. 
-
+Native English teacher with 10 years experience.
 
 #resume_section("Experience")
 
 
 #work_experience_item_header(
-  "Rakuten Group Inc., Membership Section",
+  "Model Language Studio",
   "Tokyo, Japan",
-  "Software Engineer",
-  "Jan. 2022 - Current",
+  "English Teacher",
+  "May. 2021 - Present",
 )
 
 #resume_item[
-    - Reviewed internal and external PRs and designs to enhance product quality, performance, and security.
-    - Mentored engineers, enforced standards, and elevated engineering culture.
-    - Led the migration of a legacy global authentication and authorization service to a new Kotlin stack, improving performance, latency, and throughput while reducing resource consumption.
-    - Led the migration of a legacy user data management service to a new Kotlin + Vert.x stack.
-    - Designed and implemented a unified solution for storing and accessing user data.
-    - Developed a zero-downtime migration strategy with proof-of-concept services.
-    - Conducted training sessions on asynchronous programming in Kotlin.
-    - Created an internal authorization library in Rust.
-    - Led the design and implementation of several company-wide features to enhance user account security.
-    - Contributed to the internal standardization committee.
-    - Represented Rakuten in the W3C WebAuthn working group.
-    - Received multiple internal awards for contributions to the security and quality of Rakuten services.
+  We teach English through the "drama method" which prepares students for on stage performances.
+  At the end of the year there is an honorary ceremony to recognize the best produced plays.
+  Five plays are chosen. 
+  - 2023 my studens won 4 out of 5 honorary positions.
+  - 2024 we won 1 out of 5!
 ]
 
+
 #work_experience_item_header(
-  "Baranov Central Institute of Aviation Motor Development",
-  "Moscow, Russia",
-  "Software Engineer",
-  "Aug. 2018 - Dec. 2021",
+  "Stellar International Preschool",
+  "Shizuoka, Japan",
+  "Head Teacher",
+  "May. 2018 - Apr. 2021",
 )
 
 #resume_item[
-    - Developed 3D engine for visualization of CFD results in Virtual Reality (Rust + Vulkan).  
-    - Conducted integration of local CFD solver into multiphysics engineering simulation software (Fortran + C). Updated old code bases of CFD Solver utilities to modern development standards.
+  I was hired to manage the curriculum and teaching of this preschool.
+  We focused on immersion and no Japanese was spoken within the school even by Japanese staff.
+  I taught alongside another foreign teacher and also made two year curriculum which is still used to this day.
+  I was responsible for child care including lunchtime, playtime, potty time and changing diapers.
+]
+
+
+#work_experience_item_header(
+  "KIDDY COLLEGE",
+  "Shizuoka, Japan",
+  "English Teacher",
+  "May. 2016 - May. 2018",
+)
+
+#resume_item[
+  I was responsible for a weekly schedule of classes ranging from baby lessons to professional adult lessons. Classes were conducted one on on one or as small groups under 5.
+  For younger students there was a focus on games, activities, crafts and songs.
+  Older students were focused on professional English through a textbook or discussion of current events.
+]
+
+
+#work_experience_item_header(
+  "Shirayuri International Kindergarten",
+  "Shizuoka, Japan",
+  "Homeroom Teacher",
+  "Sep. 2015 - March. 2016",
+)
+
+#resume_item[
+    I created a monthly curriculum and teaching plan based on different themes. 
+    For Example: Ocean animals, summer, dinosaurs, etc. I prepared crafts or activities for said themes and also kept the classroom neat and tidy.
+    The class was about 15 children and an after school course of 15 elementary age students which I also taught.
 ]
 
 
 #resume_section("Education")
 
 #education_item[
-    BAUMAN MOSCOW STATE TECHNICAL UNIVERSITY (BMSTU) 
+    Lindsey Wilson College
 ][
-    Moscow, Russia
+    Columbia, Kentucky, USA
 ][
-    Specialist Degree in "Design and Construction of
-    Engines and Power Plants of Aircraft"
+    Human Services and Counseling
 ][
-    Sept.2014 - July.2020 
+    Aug.2010 - May.2014
 ]
 #resume_item[
-    General:  
-    - Physics, Mathematics, Computer Science  
-    Occupational:  
-    - Fluid Dynamics, Aerodynamics, Automation Systems, Turbopump Units 
+   In university I did extensive volunteer work, this included working with special needs children in various environments and the elderly.
+   I was also active in extra cirricular activities, but especially drama and theater both as on stage talend and back stage production assistance.
+
+   I also graduated summa cum laude (Highest honors). And graduated #1 from my university in my major.
 ]
 
-#education_item[
-    SCIENTIFIC RESEARCH INSTITUTE FOR SYSTEM  ANALYSIS 
-][
-    Moscow, Russia
-][
-    Ph.D. in Computer Science (not finished)
-][
-    Aug.2020 - ?
-]
-#resume_item[
-     Dissertation: Visualization of CFD results in Virtual Reality with a volumetric rendering using raytracing.
-]
-
-#resume_section("Personal Projects")
-
-#personal_project_item_header(
-  "Kassandra",
-  "",
-  "single node cassandra implementation",
-  "",
-)
-
-#resume_item[
-  Toy in-memory DB that supports cql querry language and fully compatible with cassandra protocol
-]
-
-
-#personal_project_item_header(
-  "dothttp",
-  "",
-  "text-based http client",
-  "",
-)
-
-#resume_item[
-  Convinient CLI tool to execute http requests providing full compatibility with intelijj http client.
-]
 
 #resume_section("Skills")
 
-#skill_item(
-  "General",
-  (
-    strong[Rust],
-    strong[Kotlin], 
-    strong[Python], 
-    "Java",
-    "JavaScript",
-    "Nix",
-    "git",
-    "Linux",
-    "Docker",
-  )
-)
-
-#skill_item(
-  "Special",
-  (
-    strong[tokio],
-    strong[axum],
-    strong[hyper], 
-    strong[vert.x], 
-    strong[kotlin coroutines],
-    "opentelemetry", 
-    "cassandra", 
-    "vector",
-    "oauth 2.0",
-    "authentication and authorization",
-    "distributed systems",
-  )
-)
 
 #skill_item(
   "Languages",
   (
-    strong[Russian (Native)],
-    strong[English (C2)], 
+    strong[English (Native)],
+    strong[American Sign Language], 
+    "Japanese (basic)",
   )
 )
+
+
+#skill_item(
+  "General",
+  (
+    strong[English],
+    strong[Teaching experience], 
+    strong[Active], 
+    strong[Love working with young children],
+    strong[Curriculum maker],
+    strong[Positive attitude],
+  )
+)
+
+#resume_section("Career objective")
+
+I am interested in working with children in a preshool or day care environment!.
+I require visa support but would be most interested in work where I can work 4 days a week or 5 days under 40 hours a week.
+
+
+#resume_section("About me")
+
+I love collecting strawberries and wear strawberry clothes everyday!
+Some studens have take to calling me "Ichigo sensei".
+
+I also love writing and reading. I'm a very artistic and creative person and want to work somethere that I can thrive creatively.
+
+In the last year I've become interested in bodybuilding. 
+I hope one day to compete on stage. 
