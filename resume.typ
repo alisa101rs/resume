@@ -21,12 +21,25 @@ Enthusiastic software engineer and architect with strong competencies in Rust an
 
 #resume_section("Experience")
 
+#work_experience_item_header(
+  "Wolt, Subscription Platform",
+  "Tokyo, Japan",
+  "Software Engineer",
+  "Jan. 2022 - Mar. 2025",
+)
+
+#resume_item[
+    - Designed and delivered complex subscription-provided discount spanning multiple services 
+    - Member of design group aimed at combining subscription platform from multiple companies into unified subscription management platform
+    - Trained engineers on kotlin language features and best practices
+    - Migrated some of the legacy APIs from python to kotlin
+]
 
 #work_experience_item_header(
   "Rakuten Group Inc., Membership Section",
   "Tokyo, Japan",
   "Software Engineer",
-  "Jan. 2022 - Current",
+  "Jan. 2022 - Mar. 2025",
 )
 
 #resume_item[
@@ -37,10 +50,8 @@ Enthusiastic software engineer and architect with strong competencies in Rust an
     - Designed and implemented a unified solution for storing and accessing user data.
     - Developed a zero-downtime migration strategy with proof-of-concept services.
     - Conducted training sessions on asynchronous programming in Kotlin.
-    - Created an internal authorization library in Rust.
     - Led the design and implementation of several company-wide features to enhance user account security.
     - Contributed to the internal standardization committee.
-    - Represented Rakuten in the W3C WebAuthn working group.
     - Received multiple internal awards for contributions to the security and quality of Rakuten services.
 ]
 
