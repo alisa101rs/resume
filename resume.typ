@@ -26,7 +26,7 @@ Native English teacher with 10 years experience.
   "Model Language Studio",
   "Tokyo, Japan",
   "English Teacher",
-  "May. 2021 - Present",
+  "May. 2021 - Jul. 2025",
 )
 
 #resume_item[
