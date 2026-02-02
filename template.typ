@@ -37,10 +37,10 @@
 
 #let resume(author: (:), date: "", body) = {
   set document(
-    author: author.firstname + " " + author.lastname, 
+    author: author.firstname + " " + author.lastname,
     title: "resume",
   )
-  
+
   set text(
     //font: ("Source Sans Pro"),
     lang: "en",
@@ -64,12 +64,12 @@
           #"Résumé"
         ]
       ][
-        #counter(page).display()
+        //#counter(page).display()
       ]
     ],
     footer-descent: 0pt,
   )
-  
+
   // set paragraph spacing
   show par: set block(above: 0.75em, below: 0.75em)
   set par(justify: true)
@@ -78,14 +78,14 @@
     numbering: none,
     outlined: false,
   )
-  
+
   let name = {
     align(center)[
       #pad(bottom: 5pt)[
         #block[
           #set text(
-            size: 24pt, 
-            style: "normal", 
+            size: 24pt,
+            style: "normal",
             //font: ("Roboto")
           )
           #text(weight: "thin")[#author.firstname]
@@ -117,12 +117,12 @@
     let email_icon = box(image("assets/icons/square-envelope-solid.svg"))
     let phone_icon = box(image("assets/icons/square-phone-solid.svg"))
     let separator = box(width: 5pt)
-    
+
     align(center)[
       #block[
         #align(horizon)[
           #location_icon
-          #box[Tokyo, Japan]
+          #box[Kanagawa, Japan]
           #separator
           #phone_icon
           #box[#text(author.phone)]
@@ -139,7 +139,7 @@
           // ]
         ]
       ]
-    ] 
+    ]
   }
 
   name
@@ -269,7 +269,7 @@
 #let skill_item(category, items) = {
   set block(below: 0.65em)
   set pad(top: 5pt)
-  
+
   pad[
     #grid(
       columns: (25fr, 80fr),

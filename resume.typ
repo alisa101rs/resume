@@ -2,9 +2,9 @@
 
 #show: resume.with(
   author: (
-      firstname: "Norah", 
+      firstname: "Norah",
       lastname: "Jones",
-      email: "norahizettajones@gmail.com", 
+      email: "norahizettajones@gmail.com",
       phone: "(+81) 7090894474",
       // github: "alisa101rs",
       // linkedin: "alisa-gorelova-88940a230",
@@ -14,13 +14,23 @@
         // "Software Architect",
       )
   ),
-  date: "Jun, 2025"
+  date: "Feb, 2026"
 )
 
-Native English teacher with 10 years experience.
+Native English teacher with 11 years experience.
 
 #resume_section("Experience")
 
+#work_experience_item_header(
+  "Wish English Studies",
+  "Kanagawa, Japan",
+  "English Teacher",
+  "Sep. 2025 - Present",
+)
+
+#resume_item[
+  My responsibilities include teaching from a preset yearly cirriculum and ensuring students reach certain milestones. For example, phonics students should learn to read simple words and sentences as well as be able to give a simple self introduction. Upper level students should be able to pass Eiken tests, etc.
+]
 
 #work_experience_item_header(
   "Model Language Studio",
@@ -32,7 +42,7 @@ Native English teacher with 10 years experience.
 #resume_item[
   We teach English through the "drama method" which prepares students for on stage performances.
   At the end of the year there is an honorary ceremony to recognize the best produced plays.
-  Five plays are chosen. 
+  Five plays are chosen.
   - 2023 my studens won 4 out of 5 honorary positions.
   - 2024 we won 1 out of 5!
 ]
@@ -75,7 +85,7 @@ Native English teacher with 10 years experience.
 )
 
 #resume_item[
-    I created a monthly curriculum and teaching plan based on different themes. 
+    I created a monthly curriculum and teaching plan based on different themes.
     For Example: Ocean animals, summer, dinosaurs, etc. I prepared crafts or activities for said themes and also kept the classroom neat and tidy.
     The class was about 15 children and an after school course of 15 elementary age students which I also taught.
 ]
@@ -96,7 +106,7 @@ Native English teacher with 10 years experience.
    In university I did extensive volunteer work, this included working with special needs children in various environments and the elderly.
    I was also active in extra cirricular activities, but especially drama and theater both as on stage talend and back stage production assistance.
 
-   I also graduated summa cum laude (Highest honors). And graduated #1 from my university in my major.
+   I also graduated summa cum laude (Highest honors) and graduated \#1 from my university in my major.
 ]
 
 
@@ -107,7 +117,7 @@ Native English teacher with 10 years experience.
   "Languages",
   (
     strong[English (Native)],
-    strong[American Sign Language], 
+    strong[American Sign Language],
     "Japanese (basic)",
   )
 )
@@ -117,8 +127,8 @@ Native English teacher with 10 years experience.
   "General",
   (
     strong[English],
-    strong[Teaching experience], 
-    strong[Active], 
+    strong[Teaching experience],
+    strong[Active],
     strong[Love working with young children],
     strong[Curriculum maker],
     strong[Positive attitude],
@@ -127,16 +137,16 @@ Native English teacher with 10 years experience.
 
 #resume_section("Career objective")
 
-I am interested in working with children in a preshool or day care environment!.
+I am interested in working with children in a preshool or day care environment!
 I require visa support but would be most interested in work where I can work 4 days a week or 5 days under 40 hours a week.
 
 
-#resume_section("About me")
+// #resume_section("About me")
 
-I love collecting strawberries and wear strawberry clothes everyday!
-Some studens have take to calling me "Ichigo sensei".
+// I love collecting strawberries and wear strawberry clothes everyday!
+// Some studens have take to calling me "Ichigo sensei".
 
-I also love writing and reading. I'm a very artistic and creative person and want to work somethere that I can thrive creatively.
+// I also love writing and reading. I'm a very artistic and creative person and want to work somethere that I can thrive creatively.
 
-In the last year I've become interested in bodybuilding. 
-I hope one day to compete on stage. 
+// In the last year I've become interested in bodybuilding.
+// I hope one day to compete on stage.
